@@ -2,7 +2,7 @@ import Illustration from "./illustrationMed.png"
 
 function ThirdSection(){
     return(
-        <div className="h-screen mt-32 flex items-center justify-center">
+        <div className="h-screen mt-56 md:32 flex items-center justify-center">
             <img src = {Illustration} alt="illustration"></img>
         </div>
 
