@@ -1,9 +1,16 @@
-
+import NavBar from "./components/navBar"
+import FirstSection  from "./components/firstSection";
 function App() {
   return (
-    <div className="bg-red-100 w-32 h-32">
-     
+    <div>
+       <NavBar/>
+      <FirstSection/>
+      
+
     </div>
+     
+     
+  
   );
 }
 
